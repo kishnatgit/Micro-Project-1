@@ -1,0 +1,100 @@
+body {
+  margin: 0%;
+}
+
+.main {
+  display: flex;
+  background-color: #ffcd9e;
+}
+
+.left-container {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+.left-container > div {
+  padding: 20px;
+}
+
+.right-container {
+  width: 50%;
+  align-items: center;
+  margin-left: 85px;
+}
+
+.input1 {
+  display: flex;
+  gap: 15px;
+}
+
+#button1 {
+  padding: 14px;
+  width: 175px;
+  border: none;
+  border-radius: 5px;
+  background-color: #282828;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#input-box1 {
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+}
+
+#input-box1::placeholder {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-type1 {
+  font-family: Inter;
+  color: #282828;
+  text-decoration: none;
+}
+
+.text-type2 {
+  font-family: Inter;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  background-color: #282828;
+  height: 250px;
+}
+.footer > .left-list {
+  width: 50%;
+  margin-top: 25px;
+  margin-left: 180px;
+}
+
+.footer > .right-list {
+  width: 50%;
+  margin-top: 25px;
+  margin-right: 230px;
+}
+
+.footer > .right-list > ul {
+  text-align: right;
+}
+
+.footer > .left-list > ul > li,
+.footer > .right-list > ul > li {
+  padding: 7px;
+  list-style: none;
+}
+
+.footer-text {
+  font-family: Inter;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+}
