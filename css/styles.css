@@ -1,10 +1,12 @@
 body {
   margin: 0%;
+  /* height: ; */
 }
 
 .main {
   display: flex;
   background-color: #ffcd9e;
+  height: 75%;
 }
 
 .left-container {
@@ -48,7 +50,7 @@ body {
 }
 
 #input-box1::placeholder {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -68,6 +70,7 @@ body {
   display: flex;
   background-color: #282828;
   height: 250px;
+  height: 25%;
 }
 .footer > .left-list {
   width: 50%;
@@ -95,6 +98,6 @@ body {
   font-family: Inter;
   color: #ffffff;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 400;
 }
