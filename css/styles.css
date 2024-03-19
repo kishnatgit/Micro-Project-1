@@ -1,12 +1,12 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #ffcd9e;
 }
 
 .main {
   display: flex;
   height: 70%;
+  background-color: #ffcd9e;
 }
 
 .left-container {
