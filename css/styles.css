@@ -1,18 +1,19 @@
 body {
   margin: 0%;
   padding: 0%;
-  height: 100vh;
+  /* height: 100%; */
+  background-color: #ffcd9e;
+
   /* position: relative; */
   /* width: 100wh; */
   /* position: absolute; */
 }
 
 .main {
-  position: relative;
+  /* position: relative; */
   display: flex;
-  background-color: #ffcd9e;
-  /* min-height: 100%; */
-  /* height: 75%; */
+  /* min-height: 70vh; */
+  height: 70%;
   /* height: 100vh; */
 }
 
@@ -74,13 +75,13 @@ body {
 }
 
 .footer {
-  position: relative;
-  bottom: 0%;
+  /* position: absolute; */
+  /* bottom: 0%;s */
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
   display: flex;
   background-color: #282828;
-  /* height: 25%; */
+  height: 30%;
   /* height: 35vh; */
 }
 .footer > .left-list {
