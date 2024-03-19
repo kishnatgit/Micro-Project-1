@@ -1,20 +1,12 @@
 body {
   margin: 0%;
   padding: 0%;
-  /* height: 100%; */
   background-color: #ffcd9e;
-
-  /* position: relative; */
-  /* width: 100wh; */
-  /* position: absolute; */
 }
 
 .main {
-  /* position: relative; */
   display: flex;
-  /* min-height: 70vh; */
   height: 70%;
-  /* height: 100vh; */
 }
 
 .left-container {
@@ -75,14 +67,10 @@ body {
 }
 
 .footer {
-  /* position: absolute; */
-  /* bottom: 0%;s */
   width: 100%;
-  /* height: 250px; */
   display: flex;
   background-color: #282828;
   height: 30%;
-  /* height: 35vh; */
 }
 .footer > .left-list {
   width: 50%;
